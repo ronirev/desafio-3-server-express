@@ -15,3 +15,5 @@ npm run start
 ## Testeo: 
 
 Se adjunta un json de postman para importar y probar los ednpoints
+
+[Enlace Postman Collection](https://github.com/ronirev/desafio-3-server-express/blob/master/coder_be.postman_collection.json)
