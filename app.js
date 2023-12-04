@@ -1,8 +1,4 @@
-
-//const express = require('express')
-
 import  Express  from "express";
-import Product from "./class/Product.js";
 import ProductManager from "./class/ProductManager.js";
 
 const path = 'data/file.json'
@@ -32,5 +28,5 @@ const port = 3500
  })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`App listening on port ${port}`)
 })

@@ -14,4 +14,4 @@ npm run start
 
 ## Testeo: 
 
-Se adjunta un json de postman para importar y probar los ednpoints
+Se adjunta un json de postman para importar y probar los endpoints
