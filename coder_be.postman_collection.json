@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "f38e7079-7d41-4aa3-8dcb-63868215ad1a",
+		"name": "coder be",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "desafio_3",
+			"item": [
+				{
+					"name": "Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3500/products",
+							"host": [
+								"localhost"
+							],
+							"port": "3500",
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Products by Pid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3500/products/:pid",
+							"host": [
+								"localhost"
+							],
+							"port": "3500",
+							"path": [
+								"products",
+								":pid"
+							],
+							"variable": [
+								{
+									"key": "pid",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

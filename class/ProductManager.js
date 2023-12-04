@@ -36,7 +36,7 @@ export default class ProductManager {
         const products = JSON.parse(data);
         return products;
         } catch (error) {
-            console.log(error)
+            throw new Error('Not Found')
         }
     }
 
